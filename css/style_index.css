@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Texturina:wght@700&display=swap');
+
+
+    body{
+        padding: 0;
+        margin: 0;
+        background-color: gainsboro;
+    }
+
+    .judul{
+        background-color: rgb(36, 46, 49);
+        width: 100%;
+        height: 50px;
+        margin-top:-21px;
+        position: static;
+        text-align: center;
+         color: white;
+        text-shadow: 1px 0.5px tomato;
+        font-family: 'Texturina', serif;
+    }
+
+    nav{
+        border-top: 5px solid rgb(73, 70, 70);
+        position: sticky;
+        padding: 2px;
+        background-color: gray;
+    }
+
+    nav li{
+        display: inline-block;
+        margin-right: 20px;
+        margin-top: -20px;
+        list-style-type: none;
+    }
+    nav a{
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+    }
+
+    a:hover{
+        transition: 0.5s;
+        color: tomato;
+        
+    }
+
+    .jml{
+        border: 1px solid crimson;
+        height: 100px;
+        width: 200px;
+        background-color: crimson;
+        margin-top: 20px;
+        margin-left: 20px;
+        border-left: 10px solid darkred;
+        border-radius: 5px 0 0 5px;
+
+    }
+
+    .jml p{
+        font-size: 28px;
+        text-align: center;
+        margin-top: 0;
+        font-weight: bold;
+        color: rgb(58, 8, 8);
+        font-family: 'Cinzel', serif;
+    }
+
+    .jml p span{
+        font-size: 50px;
+        margin-left: 10px;
+        
+    }
+
+    @media screen and (max-width:400px){
+        .judul{
+        background-color: rgb(36, 46, 49);
+        width: 100%;
+        height: 50px;
+        margin-top:-15px;
+        position: static;
+        text-align: center;
+        font-size: 8px;
+        color: white;
+        text-shadow: 1px 0.5px tomato;
+        font-family: 'Texturina', serif;
+    }
+
+     nav{
+        border-top: 5px solid rgb(73, 70, 70);
+        position: sticky;
+        background-color: gray;
+        
+    }
+
+    nav li{
+        display: inline-block;
+        margin-right: 6px;
+        margin-top: -25px;
+        list-style-type: none;
+        font-size: 15px;
+        
+    }
+    nav a{
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+    }
+
+    a:hover{
+        transition: 0.5s;
+        color: tomato;
+        
+    }
+    .jml{
+        border: 1px solid crimson;
+        height: 100px;
+        width: 200px;
+        background-color: crimson;
+        margin-top: 30px;
+        margin-left: 100px;
+        border-left: 10px solid darkred;
+        border-radius: 5px 0 0 5px;
+
+    }
+
+
+
+
+    }

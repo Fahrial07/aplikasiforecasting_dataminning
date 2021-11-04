@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Texturina:wght@700&display=swap');
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: darkslategray;
+}
+
+.judul-login {
+    font-size: 15px;
+    margin-top: -21px;
+    background-color: forestgreen;
+    text-align:center;
+    border-radius: 10px 10px 0 0;
+    color: ghostwhite;
+    text-shadow: gray 3px 2px;
+    font-family: 'Texturina', serif;
+    
+}
+
+.page-login{
+    height: 250px;
+    width:300px;
+    position: relative;
+    background: floralwhite   ;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 550px;
+    margin-top: 150px;
+    /*font-family: 'Cinzel', serif;*/
+    font-family: 'Texturina', serif;
+    color: black;
+
+
+}
+
+label{
+    font-size: 20px;
+    margin-left: 10px;
+    color: black;
+}
+
+
+.pn{
+    margin-left: 500px;
+    color: red;
+    font-style: italic;
+    text-align: center;
+}
+
+input{
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+font-family: 'Texturina', serif;
+}
+
+button{
+    height: 25px;
+    width: 60px;
+    font-size: 15px;
+    background-color: limegreen;
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: yellowgreen;
+    color: tomato;
+}
+
+.headt{
+
+    text-align: center;
+
+
+}
+
+.headt h1{
+    color: white;
+    font-family: 'Texturina', serif;
+    display: inline-block;
+    margin-top: -10px;
+    width: 100%;
+    background-color: rgb(2, 116, 150);
+    position: static;
+}
+
+.headt h3{
+    color: whitesmoke;
+    font-family: 'Cinzel', serif;
+}
+footer{
+    display: inline-block;
+    width: 100%;
+    background-color:  rgb(2, 116, 150);
+    margin-top: 134px;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    color: whitesmoke;
+}
+
+span{
+    color: yellow  ;
+    font-weight: bold;
+}
+
+	@media screen and (max-width:400px){
+    
+
+        .page-login{
+    display: inline-block;
+    height: 250px;
+    width:300px;
+    background: floralwhite ;
+    margin-left: 50px;
+    margin-top:1px;
+    border-radius: 10px 10px 10px 10px;
+    /*font-family: 'Cinzel', serif;*/
+    font-family: 'Texturina', serif;
+    color :black;
+
+
+}
+
+.headt h1{
+    color: white;
+    font-family: 'Texturina', serif;
+    display: inline-block;
+    padding: 5px;
+    width: 100%;
+    background-color: rgb(2, 116, 150);
+    position: static;
+    font-size: 20px;
+}
+
+.headt h3{
+    color: whitesmoke;
+    font-family: 'Cinzel', serif;
+}
+
+footer{
+    display: inline-block;
+    width: 102.5%;
+    background-color:  rgb(2, 116, 150);
+    margin-top: 148px;
+    margin-bottom: -15px;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.pn{
+    margin:auto;
+    color: red;
+    font-style: italic;
+    text-align: center;
+}
+		
+
+	}

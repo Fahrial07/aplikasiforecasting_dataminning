@@ -1,0 +1,107 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+}
+
+.form-input{
+        height: 300px;
+        width: 400px;
+        background-color: white;
+        /* border: 1px solid black; */
+        margin-top: 30px;
+        margin-left: 500px;
+        display: inline-block;
+        border-radius: 10px 10px;
+
+}
+
+.judul{
+    text-align: center;
+    background-color: chocolate;
+    height: 30px;
+    border-radius: 10px 10px 0 0;
+    margin-top: -20px;
+    color: cornsilk;
+    text-shadow: 2px 2px darkgray;
+}
+label{
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.minggu{
+    margin-top: 20px;
+
+}
+
+.minggu-s{
+    margin-left: 60px;
+    height: 30px;
+    width: 50px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.bulan-s{
+    margin-left: 100px;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.thn-in{
+    margin-left: 100px;
+    height: 30px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.jml-i{
+    height: 30px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button{
+    height: 30px;
+    width: 65px;
+    background-color: darkgreen;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius:5px ;
+
+}
+
+a{
+    text-decoration: none;
+    height: 50px;
+    width: 70px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius:5px ;
+    padding: 4px;
+
+}
+
+@media screen and (max-width:400px){
+    .form-input{
+        height: 300px;
+        width: 370px;
+        background-color: white;
+        /* border: 1px solid black; */
+        border-radius: 10px 10px;
+        display: inline-block;
+        margin: 50px 0 0 15px ;
+
+    }
+}

@@ -1,0 +1,143 @@
+
+.show{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 0;
+
+}
+
+.container-show-data{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    overflow: scroll;
+}
+.tombol-tambah{
+    height: 30px;
+    width: 130px;
+    background-color: green;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+.tombol-tambah a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.tombol-tambah:hover{
+    transition: 0.5s;
+    background-color: yellowgreen;
+
+}
+
+table{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+thead{
+    font-size: 20px;
+}
+
+.edit{
+    height: 30px;
+    width: 60px;
+    background-color: rgb(255, 238, 0);
+    border-radius: 3px;
+    padding:3px ;
+    text-decoration: none;
+    color: rgb(73, 69, 69);
+    font-weight: bold;
+
+}
+
+.hapus{
+    height: 30px;
+    width: 80px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 3px;
+    padding: 3px ;
+    text-decoration: none;
+    color: rgb(73, 69, 69);
+    font-weight: bold;
+}
+
+.rumus{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(226, 41, 9);
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 5px;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hasil_prediksi{
+
+        height: 40px;
+        width: 500px;
+        background-color: green;
+        margin-left: 10px;
+        margin-top: 10px;
+        font-weight: bold;
+        padding: 5px;
+        text-align: center;
+        border-radius: 5px 0 5px 0;
+
+}
+
+span{
+    color: white;
+}
+
+
+
+@media screen and(max-width:400px){
+
+    .edit{
+    height: 30px;
+    width: 60px;
+    background-color: rgb(255, 238, 0);
+    border-radius: 3px;
+    padding:3px ;
+    text-decoration: none;
+    color: rgb(73, 69, 69);
+    font-weight: bold;
+
+}
+
+.hapus{
+    height: 30px;
+    width: 80px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 3px;
+    padding:3px ;
+    text-decoration: none;
+    color: rgb(73, 69, 69);
+    font-weight: bold;
+
+}
+.hasil_prediksi{
+
+        height: 40px;
+        width: 500px;
+        background-color: green;
+        margin-left: 10px;
+        margin-top: 10px;
+        font-weight: bold;
+        padding: 5px;
+        text-align: center;
+        border-radius: 5px 0 5px 0;
+        margin-bottom: 20px;
+
+}
+
+}
